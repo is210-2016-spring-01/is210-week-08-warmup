@@ -1,21 +1,21 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""BloodPressure"""
+"""Hyper tension?"""
 
 
-BloodPress = raw_input("What is your blood pressure?")
-BloodPress = int(BloodPress)
+BP = raw_input("What is your blood pressure?")
+BP = int(BP)
 
-if BloodPress <= 89:
+if BP <= 89:
     BP_STATUS = 'Low'
 
-elif BloodPress >= 90 and BP <= 119:
+elif BP >= 90 and BP <= 119:
     BP_STATUS = 'Ideal'
 
-elif BloodPress >= 120 and BP <= 139:
+elif BP >= 120 and BP <= 139:
     BP_STATUS = 'Warning'
 
-elif BloodPress >= 140 and BP <= 159:
+elif BP >= 140 and BP <= 159:
     BP_STATUS = 'High'
 
 else:
