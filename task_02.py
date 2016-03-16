@@ -5,4 +5,4 @@ convert data type to collected user input"""
 
 
 MY_INTEGER = int(raw_input("What is the answer to the"
-                       " life the universe and everything? "))
+                           " life the universe and everything? "))
