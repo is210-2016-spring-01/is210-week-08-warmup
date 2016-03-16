@@ -18,4 +18,3 @@ else:
     BP_STATUS = 'Emergency'
 
 print BLOOD_PRESSURE_RESULT.format(BP_STATUS)
-
