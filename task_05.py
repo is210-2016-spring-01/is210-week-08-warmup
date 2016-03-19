@@ -2,19 +2,19 @@
 # -*- coding: utf-8 -*-
 """blood pressure is scary."""
 
-BP_STATUS = raw_input('What is your blood pressure? ')
-BP_STATUS = int(BP_STATUS)
+BP = raw_input('What is your blood pressure? ')
+BP = int(BP)
 
-if BP_STATUS <= 89:
-    STATUS = 'Low'
-elif 90 <= BP_STATUS <= 119:
-    STATUS = 'Ideal'
-elif 120 <= BP_STATUS <= 139:
-    STATUS = 'Warning'
-elif 140 <= BP_STATUS <= 159:
-    STATUS = 'High'
-elif BP_STATUS >= 160:
-    STATUS = 'Emergency'
+if BP <= 89:
+    BP_STATUS = 'Low'
+elif 90 <= BP <= 119:
+    BP_STATUS = 'Ideal'
+elif 120 <= BP <= 139:
+    BP_STATUS = 'Warning'
+elif 140 <= BP <= 159:
+    BP_STATUS = 'High'
+else:
+    BP_STATUS = 'Emergency'
 
-BLOOD_STATUS = 'Your status is currently: {0} !'.format(STATUS)
-print BLOOD_STATUS
+MYVAR = 'Your status is currently: {0}!'.format(BP_STATUS)
+print MYVAR
